@@ -14,7 +14,7 @@ const getTestScore = (runnerResult) => {
     return acc + parseInt(score);
   }, 0);
 
-  return (score / tests.length) * (getMaxScoreForTest(runnerResult) || 0);
+  return score;
 };
 
 const getTestWeight = (maxScore, allMaxScores) => {
