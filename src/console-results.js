@@ -48,7 +48,7 @@ exports.ConsoleResults = function ConsoleResults(runnerResults) {
 
       // Calculate and display points for the current runner
       if (maxScore !== 0) {
-        console.log(`Total points for ${runner}: ${score.toFixed(2)}/${maxScore}\n`);
+        console.log(`Total points for ${runner}: ${score}/${maxScore}\n`);
       }
     })
 
